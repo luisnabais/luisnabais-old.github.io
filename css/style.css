@@ -1,0 +1,128 @@
+html {
+    font-family: lato, helvetica, verdana, sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+#ln-name {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#ln-desc {
+    color: rgba(0, 0, 0, .6);
+    display: inline-block;
+}
+
+.circular {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+#main:before {
+    border-top: 1px solid rgba(0, 0, 0, .10);
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 500px
+}
+
+.social-links {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.social-links>li {
+    display: inline-block;
+    margin-top: 18px
+}
+
+.social-links>li+li {
+    margin-left: 20px;
+}
+
+.social-links .fa {
+    color: #888888;
+}
+
+.social-links .fa-medium:hover {
+    color: #00ab6c;
+}
+
+.social-links .fa-linkedin:hover {
+    color: #007bb5;
+}
+
+.social-links .fa-github:hover {
+    color: #333;
+}
+
+.social-links .fa-facebook-square:hover {
+    color: #3b5998;
+}
+
+.social-links .fa-twitter:hover {
+    color: #1da1f2;
+}
+
+.social-links .fa-google-plus-official:hover {
+    color: #dd4b39;
+}
+
+.social-links .fa-envelope:hover {
+    color: #5cb85c;
+}
+
+.social-links .fa-wordpress:hover {
+    color: #21759b;
+}
+
+.btn {
+    color: #428bca;
+    border-radius: 2px;
+    border: 2px solid #428bca;
+    display: inline-block;
+    font-weight: 700;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    border-color: transparent;
+    background-color: #428bca;
+    color: rgba(255, 255, 255, .97);
+    text-decoration: none;
+}
+
+.btn-wrapper {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+footer {
+    color: rgba(255, 255, 255, .97);
+    background-color: rgba(0, 0, 0, .8);
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0;
+    margin-top: 20px;
+    padding: 10px 0;
+    text-align: center
+}
+
+#no-js-msg {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+}
